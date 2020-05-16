@@ -6,4 +6,4 @@ WORKDIR /app
 COPY . /app
 
 ENTRYPOINT ["python3"]
-CMD ["send.py","receive.app.svc.cluster.local","4000"]
+CMD ["send.py"]
